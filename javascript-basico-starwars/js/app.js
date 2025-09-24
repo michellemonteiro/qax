@@ -7,7 +7,9 @@ document.getElementById('user-name').innerHTML = userName
 
 //♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️//
 
-//VARIÁVEIS//
+// ✦ VARIÁVEIS ✦ //
+//Variáveis são unidades de alocação em memória para guardar informações
+
 // var nome = 'Mestre Yoda'
 // var idade = 100
 // var jedi = true
@@ -18,7 +20,7 @@ document.getElementById('user-name').innerHTML = userName
 
 //♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️//
 
-//OPERADORES MATEMÁTICOS//
+// ✦ OPERADORES MATEMÁTICOS ✦ //
 
 // var n1 = 7
 // var n2 = 2.5
@@ -36,7 +38,7 @@ document.getElementById('user-name').innerHTML = userName
 
 //♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️//
 
-//OPERADORES DE COMPARAÇÃO//
+// ✦ OPERADORES DE COMPARAÇÃO ✦ //
 
 // var v1 = 16
 // var v2 = '5'
@@ -55,7 +57,7 @@ document.getElementById('user-name').innerHTML = userName
 
 //♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️//
 
-//FUNÇÕES//
+// ✦ FUNÇÕES ✦ //
 
 //🤖Função sem retorno, só executa algo:
 // function soma(n1, n2) {
@@ -114,7 +116,7 @@ document.getElementById('user-name').innerHTML = userName
 
 //♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️//
 
-//CONTROLE DE FLUXOS COM BDD
+// ✦ CONTROLE DE FLUXOS COM BDD ✦ //
 
 //Sendo um cliente correntista do banco
 //Posso sacar dinheiro em caixas eletrônicos
@@ -191,5 +193,112 @@ document.getElementById('user-name').innerHTML = userName
 
 //♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️//
 
-//ARRAYS
-//É um tipo de dado onde você consegue ter um conjunto de dados.
+// ✦ ARRAYS ✦ //
+//🤖É um tipo de dado onde você consegue ter um conjunto de dados, onde você consegue armazenar informações.
+
+// ✨ Características principais dos Arrays
+// Organizam dados em uma lista.
+// Cada elemento do array tem uma posição chamada índice.
+// O índice começa em 0 (não em 1).
+// No exemplo:
+// frutas[0] → 'maçã'
+// frutas[1] → 'banana'
+// frutas[2] → 'uva'
+// Você pode adicionar, remover, modificar valores dessa lista.
+
+// 🌟 Onde usamos Arrays?
+// Lista de produtos no carrinho de compras.
+// Lista de alunos em uma turma.
+// Números de sorteio de uma loteria.
+// Várias mensagens em um chat.
+// Ou seja, sempre que você precisa lidar com muitos dados juntos em uma única estrutura.
+
+// var gaveteiro = ['Meias', 'Gravatas', 'Documentos', 'Salgadinhos']
+
+// console.log(gaveteiro[3])
+
+// var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vader']
+
+// //🤖 Adicionar itens 
+// personagens.push('C3pO') 
+// personagens.push('R2D2')
+
+// //🤖 Renover o último item da lista
+// personagens.pop() 
+
+// //🤖 Ignorar um item da lista
+// personagens = personagens.filter(function(p){
+//     return p !== 'Darth Vader'
+// })
+
+// //🤖 Apresentar somente um item da lista
+// personagens = personagens.filter(function(p){
+//     return p === 'Mestre Yoda'
+// })
+
+// console.log(personagens)
+
+//♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️//
+
+// ✦ CONTROLES DE REPETIÇÃO (LOOPS) ✦ //
+
+//var personagens = ['Mestre Yoda', 'Luke Skywalker', 'Princesa Leia', 'Darth Vader', 'R2D2']
+
+//🤖 Loop da maneira mais simples de codar
+// personagens.forEach(function(p){
+//     console.log(p)
+// })
+
+//🤖 Loop da maneira mais elaborada de codar
+// for (var i in personagens){
+//     console.log(personagens[i])
+// }
+
+//🤖 Loop para quem é expert em programação, pois somente desenvolvedores usam essa forma de codar
+// for (var i = 0; i < 10; i++) {
+//     console.log(i)
+//     //código vai ser executado até a condição retornar "false"
+// }
+
+//♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️//
+
+// ✦ OBJETOS (SUPER VARIÁVEIS) ✦ //
+//Objetos é uma forma muito prática de armazenamento de informações de forma flexível e agrupada onde
+//consegue-se ter uma coleção de valores referenciados por nome.
+
+//🤖 Criação do objeto
+//var yoda = {
+    // ❄︎ Criamos uma variável chamada yoda que guarda um objeto.
+    
+    // 🤖 Propriedades do objeto
+    // nome: 'Mestre Yoda',
+    // idade: 100,
+    // jedi: true,
+    // ❄︎ Essas são características do objeto (como atributos de uma ficha).
+
+    // 🤖 Método do objeto
+    // mostraIdade: function(){
+    //     console.log(`A idade do ${this.nome} é: ${this.idade} anos`)
+    // }
+    // ❄︎ Aqui temos uma função dentro do objeto. Quando uma função está dentro de um objeto, chamamos de método.
+    // this significa este objeto (no caso, yoda). Então this.nome pega 'Mestre Yoda'. E this.idade pega 100.
+//}
+
+// console.log(yoda)
+// 🤖 Chamando o método
+//yoda.mostraIdade()
+// ❄︎ Aqui você manda o objeto executar sua própria função.
+
+// 🌟 Em resumo:
+// Objeto → guarda informações em pares (chave: valor).
+// Propriedades → dados do objeto (nome, idade, jedi).
+// Métodos → funções que pertencem ao objeto.
+// this → referência ao próprio objeto (acessa os dados dele).
+
+//♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️♥️//
+
+// ✦ CONSTANTES ✦ //
+//Constante é um valor que, depois de definido, não pode ser alterado durante a execução do programa. (Perfeitas para criar massas de testes)
+
+// const nome = 'Darth Vader'
+// console.log(nome)
